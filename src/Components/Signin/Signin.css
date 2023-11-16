@@ -1,0 +1,43 @@
+.signin-container {
+    max-width: 500px;
+    margin: 8% 0 0 20%; /* Adjusted margins */
+    padding: 40px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Bookmart-signin  {
+   
+    color: #8a4848;
+    margin-left: 0;
+   
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-top: 5px;
+    margin-left: 0; /* Added margin-left to move it back to the left */
+  }
+  
+  .register {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-left: 0; /* Added margin-left to move it back to the left */
+  }
+  
+  .register span {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .register a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  

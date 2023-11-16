@@ -1,0 +1,62 @@
+/* Add these styles to your existing stylesheet or create a new one */
+
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  .upload-input {
+    display: none;
+  }
+  
+  .uploadBtn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .uploadBtn:hover {
+    background-color: #dfe7e0;
+  }
+  
+  .preview-container {
+    margin-top: 20px;
+  }
+  .upload{
+    margin-top: 20px;
+    background-color: rgba(124, 94, 94, 0.302);
+    width: 20%;
+    margin-left: 40%;
+    border-color: rgb(219, 20, 20);
+    border-style: hidden;
+    border-radius: 20px;
+    height: 60vh;
+
+  }
+  
+  .preview-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  /* Optional: Add animation for image preview */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .preview-image {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  

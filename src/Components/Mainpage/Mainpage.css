@@ -1,0 +1,74 @@
+/* Mainpage.css */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/public/Images/young-fitness-man-studio.jpg"); /* Replace with the path to your background image */
+    background-size: cover;
+    min-height: 100vh;
+    padding: 50px;
+  }
+  
+
+  
+  .site-name {
+    font-size: 6rem;
+    margin-right: 80%;
+    margin-top: 3%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c29a9a; /* You can choose your preferred color */
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    
+    width: 40vw;
+    margin-top: 11%;
+
+    /* background-color: rgba(255, 255, 255, 0.8); Add a semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+   
+  }
+  
+  .quotes {
+    text-align: center;
+    
+  }
+  
+  .welcome h4{
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #eee6e6;
+  }
+  
+  .message1 {
+    font-size: 1.8rem;
+    color: #dbcbcb;
+     /* You can choose your preferred color */
+  }
+  
+  .buttons-main {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .btn-mainpage {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff; /* You can choose your preferred color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* You can choose your preferred hover color */
+  }
+  

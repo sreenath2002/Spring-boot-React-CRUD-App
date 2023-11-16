@@ -1,0 +1,27 @@
+.image_curosel{
+   min-width: 2035px;
+   height: 800px;
+  
+}
+.words{
+    margin-bottom: 20px;
+}
+
+.main-div {
+    
+    background-image: url(../../../public/Images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 1100px;
+}
+.main-div h1{
+    margin-top: 7%;
+    margin-right: 70%;
+    color: rgb(248, 247, 247);
+    font-size: 110px;
+    font-weight: 800;
+    text-shadow: 15px 20px 10px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 10;
+}

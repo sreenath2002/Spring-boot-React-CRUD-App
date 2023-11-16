@@ -1,0 +1,58 @@
+.table-container {
+    margin: 40px 20px;
+   
+  }
+  .bar{
+    margin-top: -4%;
+    
+  }
+  .adduserbtn{
+    margin-top: 3%;
+  }
+ .delete-succses{
+  color: green;
+  font-size: larger;
+ }
+  .table {
+
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 3%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .table th, .table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+  .search-bar{
+    width: 45%;
+   margin-left: 28%;
+   border-color: black;
+   
+  }
+  .no-user-message{
+    color: black;
+    font-size: large;
+    font-weight: 700;
+  }
+
+  .delete-succses{
+    font-size: 25px;
+    color: green;
+  }
+  
